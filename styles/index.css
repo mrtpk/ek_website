@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans";
+  color: #212121;
 }
 .nav {
   display: flex;
@@ -8,10 +9,15 @@ body {
 .menu a {
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 .menu a:first-child {
   margin-right: 10px;
 }
 .container {
   margin: 0 20px;
+}
+.flex--center {
+  display: flex;
+  justify-content: space-between;
 }

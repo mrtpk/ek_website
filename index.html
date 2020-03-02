@@ -3,17 +3,97 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Portfolio</title>
+    <title>About</title>
     <meta name="author" content="hannadrehman" />
     <link rel="stylesheet" href="/styles/index.css?v=1.0" />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #a7a7a7;
+      }
+      .resume-link {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        color: #a7a7a7;
+      }
+      .light {
+        font-weight: 400;
+      }
+      .content {
+        text-align: center;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        color: #a7a7a7;
+      }
+      .social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+      }
+      .video {
+        height: 600px;
+      }
+    </style>
   </head>
-
   <body>
-    <h1>hello world</h1>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <img
+            src="http://www.eldhosekuriyan.com/site/assets/header_logos/pc/logo.jpg"
+          />
+        </div>
+        <div class="menu">
+          <a href="/index.html">home</a>
+          <a href="/about.html">about</a>
+        </div>
+      </div>
+      <div class="main">
+        <video
+          class="video"
+          autoplay="true"
+          loop="true"
+          muted="true"
+          src="http://www.eldhosekuriyan.com/site/assets/home/pc/home_animation.mp4"
+        />
+      </div>
+      <br />
+      <br />
+      <div class="main">
+        <div class="social">
+          <a href=""
+            ><img
+              src="http://www.eldhosekuriyan.com/site/assets/footer_logos/mob/insta.jpg"
+              class="social-icon"
+          /></a>
+          <a href=""
+            ><img
+              src="http://www.eldhosekuriyan.com/site/assets/footer_logos/pc/behance.jpg"
+              class="social-icon"
+          /></a>
+          <a href=""
+            ><img
+              src="http://www.eldhosekuriyan.com/site/assets/footer_logos/pc/500px.jpg"
+              class="social-icon"
+          /></a>
+
+          <a href=""
+            ><img
+              src="http://www.eldhosekuriyan.com/site/assets/footer_logos/pc/twitter.jpg"
+              class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </div>
     <script src="/scripts/index.js"></script>
   </body>
 </html>
