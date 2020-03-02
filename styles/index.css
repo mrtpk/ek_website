@@ -1,0 +1,17 @@
+body {
+  font-family: "Open Sans";
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu a:first-child {
+  margin-right: 10px;
+}
+.container {
+  margin: 0 20px;
+}
